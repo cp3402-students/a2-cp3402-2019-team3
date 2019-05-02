@@ -1,0 +1,264 @@
+/*
+Theme Name: Aberration Lite
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.screen-reader-text:focus {
+	right: 5px;
+}
+
+dd {
+  margin-right: 0;
+}
+
+/* tables */
+table {
+    text-align: right;
+}
+
+.featured {
+    margin-left: 8px;
+}
+
+
+.gallery .gallery-item {
+	padding: 0 0 0 6px;
+}
+.gallery-icon.landscape {
+    float: right;
+}
+.gallery .gallery-caption {
+	width: calc(100% - 6px);
+	margin-left: 6px;
+}
+
+
+
+.format-quote .entry-title {
+	text-align: right;
+}
+.single .format-quote .entry-title,
+.single .format-quote blockquote,
+.single .format-quote .entry-footer {
+	text-align: right;
+}
+
+.single-format-image .entry-title {
+    text-align: right;
+}
+.single-format-image .right-column .format-image,
+.single-format-image .left-column .format-image,
+.single-format-image .format-image {
+	text-align: right;
+}
+
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-wrapper .avatar {
+    float: right;
+    margin: 0 0 0 16px;
+}
+
+.comment-metadata {
+    float: right;
+}
+.comment-edit-link, 
+.comment-reply-link {
+    margin-right: 8px;
+}
+.comment-list li ul.children {
+	padding: 0 40px 0 0 ;
+}
+
+.comment-reply-login {
+	margin-right: 10px;
+}
+.comment blockquote {
+	padding: 7px 45px 7px 20px;
+}
+.comment blockquote:before {
+	right: 10px;
+}
+
+
+/*--------------------------------------------------------
+11.0 Author Bio and Page
+--------------------------------------------------------*/
+.author-avatar {
+  float: right;
+}
+
+.author-description {
+    margin: 0 60px 0 0 ;
+}
+.author .author-description {
+  margin-right: 0;
+}
+
+
+/*--------------------------------------------------------
+7.5 Widgets with Lists
+--------------------------------------------------------*/
+
+.widget_categories .children,
+.widget_nav_menu .sub-menu,
+.widget_pages .children {
+	margin: 0.5rem 0.8em 0 0 ;
+}
+
+
+/*--------------------------------------------------------
+7.6 Tag Cloud
+--------------------------------------------------------*/
+.widget .tagcloud a{
+	margin: 0 0 5px 3px;
+}
+
+ #wp-calendar tfoot td {
+    padding: 3px 10px 3px 0;
+}
+
+
+
+textarea {
+	padding-right: 3px;
+}
+
+.radio label,
+.checkbox label {
+	padding-right: 20px;
+	margin-left: 1px;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+	margin-right: -20px;
+}
+
+
+/*--------------------------------------------------------------
+Go to Top Button
+--------------------------------------------------------------*/
+.back-to-top {
+	left: 20px;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation.toggled-on ul {
+	text-align:right;
+}
+.main-navigation.toggled-on ul a { padding-right: 1.250rem; }
+.main-navigation.toggled-on ul ul a { padding-right: 2.50rem; }
+.main-navigation.toggled-on ul ul ul a { padding-right: 3.750rem; }
+.main-navigation.toggled-on ul ul ul ul a { padding-right: 5rem; }
+.main-navigation.toggled-on ul ul ul ul ul a { padding-right: 6.250rem; }
+
+
+@media (min-width: 992px) {
+
+	/* Submenus */	
+	.main-navigation ul ul {
+		float: left;
+		margin: 0 0 0 -7px;
+		left: -999rem;
+	}
+	.main-navigation ul ul ul {
+		left: -999rem;
+	}	
+	.main-navigation li li {
+		text-align: right;
+	}
+	
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li.focus > ul {
+		left: auto;
+		right:0;
+	}
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+	  left: auto; /* reset the default positioning */
+	  right: 100%; /* this makes the submenu fly out to the right */
+	}
+	.main-navigation li li a:hover {
+		padding-left: 20px;
+		border-right: 1px solid #fff;
+		border-left: none;
+	}
+	/* hover border when no banner */
+	.main-navigation .nav-menu.nobanner li li a:hover {
+		border-right: 1px solid #000;
+		border-left: none;
+	}	
+}
+
+
+/*--------------------------------------------------------------
+15.3 Bottom Social Menu
+--------------------------------------------------------------*/
+.social-icons a:before {
+	right: 0;
+	left:0;
+}
+
+
+/*--------------------------------------------------------------
+ 15.5 Footer Menu
+--------------------------------------------------------------*/
+#footer-menu li:after {
+	margin: 0 5px 0 2px;
+}
+
+
+/*--------------------------------------------------------
+15.4 Pagination
+--------------------------------------------------------*/
+.post-nav-older {
+	float: left;
+    margin-right: 10px;
+}
+.post-nav-newer {
+	float: right;
+	margin-left: 10px;
+}
+
+.post-nav-older:after,
+.post-nav-newer:before {
+	margin-right: 5px;
+}
+.post-nav-newer:before {
+	margin: 0 0 0 5px;
+}
+
+/* single post navigation */
+.post-navigation .nav-previous,
+.comment-navigation .nav-previous {
+  float: right;
+}
+
+.post-navigation .nav-next,
+.comment-navigation .nav-next {
+  float: left;
+  text-align: left;
+}
+
+.single .page-links {
+  text-align: right;
+}

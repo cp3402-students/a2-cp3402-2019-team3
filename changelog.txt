@@ -1,0 +1,94 @@
+-------------------------------------------------------
+    CHANGELOG
+-------------------------------------------------------
+
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating 
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at 
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different 
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+-------------------------------------------------------
+    CHANGELOG Version Numbers
+-------------------------------------------------------
+
+[major].[minor].[patch]
+
+These 3 levels are defined as:
+
+1. An increment in the major version indicates a break in backward compatibility.
+2. An increment in the minor version indicates the addition of new features or a significant change to existing features.
+3. An increment in the patch version indicates that minor features have been changed or bugs have been fixed.
+
+-------------------------------------------------------
+    Changes Made to this Theme
+-------------------------------------------------------
+
+August 15, 2018 - 1.1.0
+--------------------------------------
+- Improved WP gallery mobile responsiveness
+- Reduced additional customizer links
+- Updated theme product page link
+- Fixed some http links to https
+
+
+July 17, 2016 - 1.0.7
+--------------------------------------
+- Added a missing breadcrumbs option to the theme
+- Added a sidebar position for breadcrumb shortcodes and widgets
+- Updated the language .pot file
+
+
+May 31, 2016 - 1.0.6
+--------------------------------------
+- Fixed the setting to disable the author on the full post view.
+- Added a new setting to turn on or off the author on the full post view.
+- Updated the style.css tags by removing depreciated tags
+- Updated the .pot language file
+
+
+April 16, 2016 - 1.0.5
+--------------------------------------
+- Fixed the broken link on the image post format "See More" link
+- Fixed the "See More" label which was not being translatable
+- Made some adjustments to the mobile view and layout of the top header area, including the logo title box
+- Updated the aberration-lite.pot language file
+- Added support for "Refresh Widgets"
+- Removed the theme info from the Appearance menu admin group
+
+
+February 4, 2016 - 1.0.4
+--------------------------------------
+- Changed the customizer logo upload
+- Updated the aberration-lite.pot language file
+
+
+January 30, 2016 - 1.0.3
+--------------------------------------
+- Removed a custom Splash page template (not available for Aberration Lite)
+- Removed the Gallery Post format (not available for Aberration Lite)
+- Updated the aberration-lite.pot language file.
+
+
+January 29, 2016 - 1.0.2
+--------------------------------------
+- Removed WordPress custom header file (not being used in this theme)
+- Made some font size adjustments to the site title and body main text
+- Adjusted header layout and design
+- Fixed some colour settings that were not taking effect on the front-end
+- Removed the custom error page text content fields from the customizer (not translatable)
+- Regenerated/updated the aberration-lite.pot language file
+
+
+January 28, 2016 - 1.0.1
+--------------------------------------
+- Removed code from the extras.php file that fixes a bug in the default editor when using shortcodes...not needed here
+- Changed the custom excerpt size to use the core excerpt filter method
+- Added Font Awesome and the option to disable it from the customizer
+- Updated the readme.txt file
+- Regenerated/updated the aberration-lite.pot language file
+- Changed the screenshot
+
+
+November 12, 2015 - 1.0.0
+--------------------------------------
+- Theme Released
