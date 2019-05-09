@@ -121,6 +121,8 @@ add_action( 'widgets_init', 'the_coffee_can_widgets_init' );
  */
 function the_coffee_can_scripts() {
 	wp_enqueue_style( 'the-coffee-can-style', get_stylesheet_uri() );
+    
+    wp_enqueue_style( 'the-coffee-can-style-header', get_template_directory_uri() . '/header.css');
 
 	wp_enqueue_script( 'the-coffee-can-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
