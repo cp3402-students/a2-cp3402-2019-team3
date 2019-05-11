@@ -15,6 +15,15 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+
+            <nav class="footer-menu">
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'menu-2'
+            ) );
+            ?>
+            </nav>
+
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'the-coffee-can' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
