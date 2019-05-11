@@ -3,6 +3,7 @@
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: $color__background-hr;
 
 	//font-family: #TODO pick font
 
@@ -83,12 +84,12 @@
 	display: block;
 }
 
-@media screen and (min-width: $query__small) { //TODO change to variable
+@media screen and (min-width: $query__small) {
 	.main-navigation {
 
 		.menu-item-has-children > a,
 		.page_item_has_children > a {
-			background: hsla(0, 0%, 100%, .1);
+			background: hsla(0, 0%, 100%, .5);
 		}
 		ul {
 			display: flex;
@@ -98,7 +99,7 @@
 
 			ul {
 				flex-direction: column;
-				background: hsla(0, 0%, 100%, .1);
+				background: $color__background-hr;
 				margin-left: 0;
 			}
 		}

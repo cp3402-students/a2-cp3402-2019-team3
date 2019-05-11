@@ -65,6 +65,14 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 			'default-image' => '',
 		) ) );
 
+		//Add theme support for custom logo
+        add_theme_support( 'custom-logo', array(
+            'width' => 178,
+            'height' => 178,
+            'flex-width' => false,
+            'flex-height' => false
+        ));
+
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 

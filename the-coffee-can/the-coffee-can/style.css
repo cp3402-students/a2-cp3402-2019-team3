@@ -624,6 +624,7 @@ a:hover, a:active {
   display: block;
   float: left;
   width: 100%;
+  background-color: #ccc;
 }
 .main-navigation ul {
   display: none;
@@ -674,7 +675,7 @@ a:hover, a:active {
 @media screen and (min-width: 500px) {
   .main-navigation .menu-item-has-children > a,
 .main-navigation .page_item_has_children > a {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
   }
   .main-navigation ul {
     display: flex;
@@ -684,7 +685,7 @@ a:hover, a:active {
   }
   .main-navigation ul ul {
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.1);
+    background: #ccc;
     margin-left: 0;
   }
   .main-navigation li {
@@ -847,6 +848,60 @@ a:hover, a:active {
   .site-content {
     padding: 8em;
   }
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-header {
+  padding: 1em;
+  color: blue;
+  background-color: grey;
+}
+@media screen and (min-width: 500px) {
+  .site-header {
+    padding: 1em 0 0 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .site-header {
+    padding: 2em 0 0 0;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .site-header {
+    padding: 4em 0 0 0;
+  }
+}
+
+.site-branding {
+  text-align: center;
+  min-height: 65px;
+}
+
+.site-title {
+  color: red;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+}
+.site-title a:hover, .site-title afocus {
+  text-decoration: underline;
+}
+
+.site-description {
+  margin: 0;
+  padding: 1em;
+  font-size: 0.7em;
+}
+
+.header-image {
+  padding: 0;
+  margin: 0;
+}
+.header-image img {
+  display: block;
 }
 
 /*--------------------------------------------------------------

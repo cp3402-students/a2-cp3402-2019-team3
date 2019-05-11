@@ -26,6 +26,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
+
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -34,7 +35,7 @@
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			endif;
 			$the_coffee_can_description = get_bloginfo( 'description', 'display' );
@@ -53,6 +54,9 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
+        <div class="header-image">
+        <?php the_header_image_tag(); ?>
+        </div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
