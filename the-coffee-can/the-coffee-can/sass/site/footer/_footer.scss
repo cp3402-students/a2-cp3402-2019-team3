@@ -1,9 +1,9 @@
 .site-footer {
-  padding: 1em 0 0 0;
+  padding: 1em 0 1em 0;
   margin: 2em 0 0 0;
   font-family: $font__sans;
-  color: $color__test-2;
-  background-color: $color__test-3;
+  color: $color__menu2;
+  background-color: $color__menu3;
   text-align: center;
 }
 
@@ -17,13 +17,13 @@
   }
   a {
     padding: 1em;
-    color: $color__test-1;
+    color: $color__menu2;
     text-decoration: none;
 
     &:hover,
     &focus {
       text-decoration: underline;
-      color: $color__test-2;
+      color: $color__menu1;
     }
   }
 }

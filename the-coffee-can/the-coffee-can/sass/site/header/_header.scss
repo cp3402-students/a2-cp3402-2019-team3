@@ -1,7 +1,7 @@
 .site-header {
   padding: 0;
   font-family: $font__sans;
-  color: $color__test-2;
+  color: $color__header-2;
   //background-color: $color__test-3;
 
   //@media screen and (min-width: $query__small) {
@@ -22,7 +22,7 @@
 }
 
 .site-title {
-  color: $color__test-1;
+  color: $color__header-1;
   margin: 0;
 
   a {
@@ -48,35 +48,4 @@
   img {
     display: block;
   }
-}
-
-.header-menu {
-  a{
-    color: $color__menu1;
-
-    &:visited {
-      color: $color__menu3;
-    }
-  }
-
-  ul {
-    ul {
-      a {
-        color: $color__menu2;
-      }
-    }
-  }
-}
-
-.header-menu {
-  padding: 1em 5em;
-  @include query-padding();
-}
-
-@media screen and (min-width: $query__medium) {
-  .header-menu {
-    display: flex;
-    justify-content: space-between;
-  }
-
 }
