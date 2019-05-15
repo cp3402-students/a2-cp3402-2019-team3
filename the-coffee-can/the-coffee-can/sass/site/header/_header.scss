@@ -1,6 +1,6 @@
 .site-header {
   padding: 0;
-  //font-family: TODO: choose font
+  font-family: $font__sans;
   color: $color__test-2;
   //background-color: $color__test-3;
 
@@ -70,6 +70,7 @@
 
 .header-menu {
   padding: 1em 5em;
+  @include query-padding();
 }
 
 @media screen and (min-width: $query__medium) {

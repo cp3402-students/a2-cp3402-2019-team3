@@ -129,6 +129,9 @@ add_action( 'widgets_init', 'the_coffee_can_widgets_init' );
  * Enqueue scripts and styles.
  */
 function the_coffee_can_scripts() {
+//    fonts
+    wp_enqueue_style('the_coffee_can-fonts', 'https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,400i,700,700i|Open+Sans:400,400i,700,800i');
+
 	wp_enqueue_style( 'the-coffee-can-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'the-coffee-can-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );

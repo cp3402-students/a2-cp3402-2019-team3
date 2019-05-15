@@ -27,3 +27,16 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+// Media queries for padding
+@mixin query-padding() {
+	@media screen and (min-width: $query__small) {
+		padding: 0 2em;
+	}
+	@media screen and (min-width: $query__medium) {
+		padding: 0 4em;
+	}
+	@media screen and (min-width: $query__large) {
+		padding: 0 8em;
+	}
+}

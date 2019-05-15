@@ -1,20 +1,10 @@
 .site-footer {
-
-  padding: 1em;
-  //font-family: TODO: choose font
+  padding: 1em 0 0 0;
+  margin: 2em 0 0 0;
+  font-family: $font__sans;
   color: $color__test-2;
   background-color: $color__test-3;
   text-align: center;
-
-  @media screen and (min-width: $query__small) {
-    padding: 1em 0 0 0;
-  }
-  @media screen and (min-width: $query__medium) {
-    padding: 2em 0 0 0;
-  }
-  @media screen and (min-width: $query__large) {
-    padding: 4em 0 0 0;
-  }
 }
 
 .footer-menu {
