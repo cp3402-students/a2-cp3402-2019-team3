@@ -9,16 +9,16 @@
 
 .footer-menu {
   ul {
-    list-style-type: none;
+    padding: 1em;
+    margin: 0;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 1em;
+    list-style-type: none;
   }
   a {
     padding: 1em;
-    color: $color__menu2;
     text-decoration: none;
+    color: $color__menu2;
 
     &:hover,
     &focus {

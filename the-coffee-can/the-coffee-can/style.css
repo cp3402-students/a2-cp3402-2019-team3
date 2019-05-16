@@ -621,17 +621,17 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
+  font-family: "Open Sans", "Lucida Sans", Arial, sans-serif;
+  width: 100%;
   clear: both;
   display: block;
   float: left;
-  width: 100%;
-  font-family: "Open Sans", "Lucida Sans", Arial, sans-serif;
 }
 .main-navigation ul {
-  display: none;
-  list-style: none;
   margin: 0;
   padding-left: 0;
+  display: none;
+  list-style: none;
 }
 .main-navigation ul ul {
   float: left;
@@ -641,8 +641,8 @@ a:hover, a:active {
   z-index: 99999;
 }
 .main-navigation ul ul ul {
-  left: -999em;
   top: 0;
+  left: -999em;
 }
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
@@ -650,6 +650,7 @@ a:hover, a:active {
 .main-navigation ul ul a {
   width: 200px;
   color: white;
+  background-color: #383838;
 }
 .main-navigation ul ul a:visited {
   color: white;
@@ -673,6 +674,7 @@ a:hover, a:active {
 .main-navigation a.focus {
   text-decoration: underline;
 }
+
 .header-menu {
   padding: 1em 5em;
 }
@@ -698,23 +700,23 @@ a:hover, a:active {
   color: #383838;
 }
 
-@media screen and (min-width: 1000px) {
-  .header-menu {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
 @media screen and (min-width: 500px) {
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .main-navigation ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em;
+    color: #383838;
   }
   .main-navigation ul ul {
     flex-direction: column;
@@ -890,7 +892,7 @@ a:hover, a:active {
 .site-header {
   padding: 0;
   font-family: "Open Sans", "Lucida Sans", Arial, sans-serif;
-  color: pink;
+  color: #713d1c;
 }
 
 .site-branding {
@@ -899,8 +901,8 @@ a:hover, a:active {
 }
 
 .site-title {
-  color: red;
   margin: 0;
+  color: black;
 }
 .site-title a {
   text-decoration: none;
@@ -910,8 +912,8 @@ a:hover, a:active {
 }
 
 .site-description {
-  margin: 0;
   padding: 1em;
+  margin: 0;
   font-size: 0.7em;
 }
 
@@ -974,16 +976,16 @@ a:hover, a:active {
 }
 
 .footer-menu ul {
-  list-style-type: none;
+  padding: 1em;
+  margin: 0;
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 1em;
+  list-style-type: none;
 }
 .footer-menu a {
   padding: 1em;
-  color: white;
   text-decoration: none;
+  color: white;
 }
 .footer-menu a:hover, .footer-menu afocus {
   text-decoration: underline;

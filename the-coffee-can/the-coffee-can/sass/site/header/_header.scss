@@ -2,17 +2,6 @@
   padding: 0;
   font-family: $font__sans;
   color: $color__header-2;
-  //background-color: $color__test-3;
-
-  //@media screen and (min-width: $query__small) {
-  //  padding: 1em 0 0 0;
-  //}
-  //@media screen and (min-width: $query__medium) {
-  //  padding: 2em 0 0 0;
-  //}
-  //@media screen and (min-width: $query__large) {
-  //  padding: 4em 0 0 0;
-  //}
 }
 
 .site-branding {
@@ -22,8 +11,8 @@
 }
 
 .site-title {
-  color: $color__header-1;
   margin: 0;
+  color: $color__header-1;
 
   a {
     text-decoration: none;
@@ -36,8 +25,8 @@
 }
 
 .site-description {
-  margin: 0;
   padding: 1em;
+  margin: 0;
   font-size: .7em;
 }
 

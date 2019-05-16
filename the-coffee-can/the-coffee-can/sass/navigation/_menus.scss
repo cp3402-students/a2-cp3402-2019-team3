@@ -1,15 +1,15 @@
 .main-navigation {
+	font-family: $font__sans;
+	width: 100%;
 	clear: both;
 	display: block;
 	float: left;
-	width: 100%;
-	font-family: $font__sans;
 
 	ul {
-		display: none;
-		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		display: none;
+		list-style: none;
 
 		ul {
 			float: left;
@@ -19,8 +19,8 @@
 			z-index: 99999;
 
 			ul {
-				left: -999em;
 				top: 0;
+				left: -999em;
 			}
 
 			li {
@@ -33,17 +33,10 @@
 			a {
 				width: 200px;
 				color: $color__menu2;
+				background-color: $color__menu3;
 				&:visited {
 					color: $color__menu2;
 				}
-			}
-
-			:hover > a,
-			.focus > a {
-			}
-
-			a:hover,
-			a.focus {
 			}
 		}
 
@@ -72,12 +65,6 @@
 	a.focus {
 		text-decoration: underline;
 	}
-
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a,
-	.current-menu-ancestor > a {
-	}
 }
 
 .header-menu {
@@ -92,19 +79,17 @@
 	}
 }
 
-@media screen and (min-width: $query__medium) {
-	.header-menu {
-		display: flex;
-		justify-content: space-between;
-	}
-}
-
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
 }
 
 @media screen and (min-width: $query__small) {
+	.header-menu {
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.main-navigation {
 
 		.menu-item-has-children > a,
@@ -115,6 +100,7 @@
 			flex-wrap: wrap;
 			justify-content: space-between;
 			padding: 1em;
+			color: $color__menu3;
 
 			ul {
 				flex-direction: column;
@@ -134,7 +120,6 @@
 		display: none;
 	}
 }
-
 
 .comment-navigation,
 .posts-navigation,
