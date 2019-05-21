@@ -1,0 +1,29 @@
+.site-footer {
+  padding: 1em 0 1em 0;
+  margin: 2em 0 0 0;
+  font-family: $font__sans;
+  color: $color__menu2;
+  background-color: $color__menu3;
+  text-align: center;
+}
+
+.footer-menu {
+  ul {
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  a {
+    padding: 1em;
+    text-decoration: none;
+    color: $color__menu2;
+
+    &:hover,
+    &focus {
+      text-decoration: underline;
+      color: $color__menu1;
+    }
+  }
+}
