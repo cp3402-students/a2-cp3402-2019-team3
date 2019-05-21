@@ -5,19 +5,19 @@ a2-cp3402-2019-team3 created by GitHub Classroom
 <h1> Team Members: </h1>
 <p>
  <ul>
-<li><a href="https://www.linkedin.com/in/bonnie-thompson-4975b1187/">Bonnie Thompson</a></li>
-<li><a href="https://www.linkedin.com/in/max-dunsmore-199398187/">Max Dunsmore</a></li>
-<li><a href="https://www.linkedin.com/in/james-collison-6a7399187/">James Collison</a></li>
-<li><a href="https://www.linkedin.com/in/jacob-negri-751261117">Jacob Negri</a></li>
+<li><a href="https://github.com/BonnieThompson">Bonnie Thompson</a></li>
+<li><a href="https://github.com/MaxDunsmore">Max Dunsmore</a></li>
+<li><a href="https://github.com/JamesCollison">James Collison</a></li>
+<li><a href="https://github.com/JacobNegri">Jacob Negri</a></li>
 </p>
 </ul>
 <p>
  <h1>Linked In</h1>
  <ul>
-<li><a href="https://github.com/BonnieThompson">Bonnie Thompson</a></li>
-<li><a href="https://github.com/MaxDunsmore">Max Dunsmore</a></li>
-<li><a href="https://github.com/JamesCollison">James Collison</a></li>
-<li><a href="https://github.com/JacobNegri">Jacob Negri</a></li>
+ <li><a href="https://www.linkedin.com/in/bonnie-thompson-4975b1187/">Bonnie Thompson</a></li>
+<li><a href="https://www.linkedin.com/in/max-dunsmore-199398187/">Max Dunsmore</a></li>
+<li><a href="https://www.linkedin.com/in/james-collison-6a7399187/">James Collison</a></li>
+<li><a href="https://www.linkedin.com/in/jacob-negri-751261117">Jacob Negri</a></li>
 </p>
 </ul>
 <h1>Workflow </h1>
