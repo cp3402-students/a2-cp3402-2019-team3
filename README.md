@@ -5,7 +5,7 @@ a2-cp3402-2019-team3 created by GitHub Classroom
 <h1> Team Members: </h1>
 <p>
  <ul>
-<li><a href="https://www.linkedin.com/in/bonnie-thompson-00b951154/">Bonnie Thompson</a></li>
+<li><a href="https://www.linkedin.com/in/bonnie-thompson-4975b1187/">Bonnie Thompson</a></li>
 <li><a href="https://www.linkedin.com/in/max-dunsmore-199398187/">Max Dunsmore</a></li>
 <li><a href="https://www.linkedin.com/in/james-collison-6a7399187/">James Collison</a></li>
 <li><a href="https://www.linkedin.com/in/jacob-negri-751261117">Jacob Negri</a></li>
