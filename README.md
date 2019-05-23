@@ -45,7 +45,7 @@ a2-cp3402-2019-team3 created by GitHub Classroom
  <li>MySQL</li>
 </ul>
 <h1>Developer Workflow</h1>
-Firstly you must install Wordpress onto your local environment by installing <a href="https://wordpress.org/"Wordpress.org">
+Firstly you must install Wordpress onto your local environment by installing <a href="https://wordpress.org/">Wordpress.org</a>
 
 Once installing WordPress, you will need to download <a href="http://www.wampserver.com/en/">WAMP</a> (<a href="https://www.mamp.info/en/">MAMP</a> or <a href="https://www.apachefriends.org/index.html">XXAMP</a> for MacOS and linux) and configure it. 
 After succesffully installing, WAMP should be accessable at the bottom right of the screen. Proceed with the following steps:
@@ -65,7 +65,7 @@ After succesffully installing, WAMP should be accessable at the bottom right of 
 </ul
 
 <h1>Deployment</h1>
-You can deploy changes to the website to github by the command line or if you are not confident with the command line we highly suggest installing <a href="https://desktop.github.com/"Github Desktop</a> as it has an easy to understand UI.
+You can deploy changes to the website to github by the command line or if you are not confident with the command line we highly suggest installing <a href="https://desktop.github.com/">Github Desktop</a> as it has an easy to understand UI.
 If you are using the command line:
 <ul>
   <li> Navigate to the wp-content folder using the <code>cd</code> command
