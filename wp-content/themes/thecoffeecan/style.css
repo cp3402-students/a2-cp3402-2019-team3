@@ -397,6 +397,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Lucida Sans", Arial, sans-serif;
 }
 
+.entry-title {
+  text-align: center;
+}
+
 p {
   margin-bottom: 1.5em;
 }
